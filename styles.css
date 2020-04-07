@@ -44,6 +44,10 @@ nav a {
   margin: 0 35px 0 0;
 }
 
+.icon {
+  display: none;
+}
+
 .wrapper {
   width: 100%;
 }
@@ -451,5 +455,38 @@ nav a {
   #mobile_sub {
     width: 70vw;
     line-height: 35px;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    height: 80px;
+  }
+
+  .logo a img {
+    width: 60px;
+    height: auto;
+  }
+
+  .wrapper {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .icon {
+    display: block;
+    line-height: 80px;
+    font-size: 50px;
+    color: #edf0f1;
+    float: right;
+  }
+
+  .icon:hover {
+    color: #42a097;
+  }
+
+  nav {
+    display: block;
+    display: none;
   }
 }
