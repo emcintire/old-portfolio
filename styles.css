@@ -17,7 +17,7 @@ body {
 header {
   width: 100vw;
   height: 60px;
-  background-color: #24252a;
+  background-color: #3e424b;
   z-index: 12;
   position: fixed;
 }
@@ -99,7 +99,7 @@ nav a {
   position: relative;
   top: 100vh;
   background: #edf0f1;
-  height: 110vh;
+  height: 120vh;
 }
 
 .about h2 {
@@ -177,7 +177,7 @@ nav a {
   position: relative;
   top: 100vh;
   background: #24252a;
-  height: 300vh;
+  height: 380vh;
 }
 
 .p_header {
@@ -196,12 +196,12 @@ nav a {
   padding-top: 10vh;
   margin: auto;
   width: 75%;
-  height: 80vh;
+  height: 120vh;
   display: flex;
 }
 
 #p1 {
-  height: 90vh;
+  height: 120vh;
 }
 
 .p_img_container {
@@ -378,9 +378,11 @@ nav a {
   }
 }
 
+
+
 @media (max-width: 1000px) {
   .about {
-    height: 100vh;
+    height: 120vh;
   }
 
   .about p {
@@ -413,15 +415,15 @@ nav a {
   }
 
   .projects {
-    height: 290vh;
+    height: 350vh;
   }
 
   .p_container {
-    height: 80vh;
+    height: 100vh;
   }
 
   #p1 {
-    height: 85vh;
+    height: 100vh;
   }
 
   #p1 .title_text {
@@ -458,35 +460,100 @@ nav a {
   }
 }
 
-@media (max-width: 600px) {
-  header {
-    height: 80px;
+@media (max-width: 800px) {
+
+  .p_img_container {
+    padding: 10vh 0 0 0;
   }
 
-  .logo a img {
-    width: 60px;
+  #p3 .p_img_container {
+    padding: 7vh 0 0 0;
+  }
+
+  .container {
+    width: 95%;
     height: auto;
   }
+
+  .projects {
+    height: 400vh;
+  }
+
+  .p_container {
+    height: 120vh;
+  }
+
+  #p1 {
+    height: 120vh;
+  }
+
+  .contact p {
+    line-height: 80vh;
+    width: 50vw;
+    height: 50vh;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .about h2 {
+    font-size: 60px;
+  }
+
+  .p_header {
+    font-size: 60px;
+  }
+
+  .contact h2 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+
 
   .wrapper {
     overflow: hidden;
     position: relative;
   }
 
-  .icon {
-    display: block;
-    line-height: 80px;
-    font-size: 50px;
-    color: #edf0f1;
-    float: right;
-  }
-
-  .icon:hover {
-    color: #42a097;
-  }
-
   nav {
     display: block;
-    display: none;
+    
   }
+
+  .projects {
+    height: 410vh;
+  }
+
+  .p_container {
+    height: 130vh;
+  }
+
+  #p1 {
+    height: 130vh;
+  }
+
+  .container {
+    width: 95%;
+    height: auto;
+  }
+
+  .contact p {
+    line-height: 80vh;
+    width: 60vw;
+    height: 50vh;
+  }
+
+  .about h2 {
+    font-size: 50px;
+  }
+
+  .p_header {
+    font-size: 50px;
+  }
+
+  .contact h2 {
+    font-size: 50px;
+  }
+
 }
