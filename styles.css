@@ -177,7 +177,7 @@ nav a {
   position: relative;
   top: 100vh;
   background: #24252a;
-  height: 380vh;
+  height: 420vh;
 }
 
 .p_header {
@@ -190,6 +190,31 @@ nav a {
   text-align: right;
   float: right;
   padding: 3vh 3vw 0;
+}
+
+#proj3 {
+  height: 90vh;
+}
+
+#gd a {
+  width: 33vw;
+  padding: 4vh 0 0 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #edf0f1;
+  text-align: left;
+  float: left;
+}
+
+#gd {
+  padding-top: 10vh;
+  padding-left: 10vw;
+  margin: auto;
+  width: 100%;
+  height: 120vh;
+  display: flex;
 }
 
 .p_container {
@@ -378,8 +403,6 @@ nav a {
   }
 }
 
-
-
 @media (max-width: 1000px) {
   .about {
     height: 140vh;
@@ -415,7 +438,7 @@ nav a {
   }
 
   .projects {
-    height: 350vh;
+    height: 390vh;
   }
 
   .p_container {
@@ -461,7 +484,6 @@ nav a {
 }
 
 @media (max-width: 800px) {
-
   .p_img_container {
     padding: 10vh 0 0 0;
   }
@@ -476,7 +498,7 @@ nav a {
   }
 
   .projects {
-    height: 400vh;
+    height: 415vh;
   }
 
   .p_container {
@@ -524,11 +546,10 @@ nav a {
 
   nav {
     display: block;
-    
   }
 
   .projects {
-    height: 410vh;
+    height: 440vh;
   }
 
   .p_container {
@@ -561,5 +582,4 @@ nav a {
   .contact h2 {
     font-size: 50px;
   }
-
 }
