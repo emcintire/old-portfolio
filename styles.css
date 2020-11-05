@@ -210,9 +210,8 @@ nav a {
 
 #gd {
   padding-top: 10vh;
-  padding-left: 10vw;
   margin: auto;
-  width: 100%;
+  width: 75%;
   height: 120vh;
   display: flex;
 }
